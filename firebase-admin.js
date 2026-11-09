@@ -1,0 +1,11 @@
+require('dotenv').config();
+const fs = require('node:fs');
+const path = require('node:path');
+const { initializeApp, cert } = require('firebase-admin/app');
+const { getFirestore } = require('firebase-admin/firestore');
+const { getAuth } = require('firebase-admin/auth');
+const ruta = process.env.GOOGLE_APPLICATION_CREDENTIALS;
+if (!ruta) throw new Error('Falta GOOGLE_APPLICATION_CREDENTIALS en .env');
+const cuenta = JSON.parse(fs.readFileSync(path.resolve(ruta), 'utf8'));
+const app = initializeApp({credential: cert(cuenta),projectId:cuenta.project_id});
+module.exports = {db:getFirestore(app),auth:getAuth(app)};

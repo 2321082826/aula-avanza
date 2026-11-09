@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1080" viewBox="0 0 900 1080" role="img" aria-label="Ilustración moderna de aprendizaje con libros, cuaderno y computadora">
+<defs>
+ <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#263f80"/><stop offset=".6" stop-color="#4b61aa"/><stop offset="1" stop-color="#8b89c8"/></linearGradient>
+ <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#dce7ff"/></linearGradient>
+ <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8fb6ef"/><stop offset="1" stop-color="#c6b9ff"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="22" stdDeviation="26" flood-color="#152759" flood-opacity=".28"/></filter>
+</defs>
+<rect width="900" height="1080" fill="url(#bg)"/>
+<circle cx="708" cy="140" r="250" fill="#fff" fill-opacity=".055"/>
+<circle cx="720" cy="135" r="198" fill="none" stroke="#fff" stroke-opacity=".15" stroke-width="2"/>
+<circle cx="78" cy="300" r="185" fill="#fff" fill-opacity=".045"/>
+<g opacity=".6" fill="none" stroke="#c9d9ff" stroke-width="3"><path d="M80 95h100M130 45v100"/><path d="M765 445h60M795 415v60"/><path d="M82 605h50M107 580v50"/></g>
+<g filter="url(#shadow)" transform="translate(90,225) rotate(-8 360 260)">
+ <rect x="105" y="180" width="630" height="405" rx="32" fill="#dbe6ff"/>
+ <rect x="130" y="205" width="580" height="335" rx="21" fill="#192b58"/>
+ <rect x="145" y="222" width="550" height="295" rx="11" fill="#eaf3ff"/>
+ <rect x="180" y="255" width="245" height="27" rx="9" fill="#597cbe"/>
+ <rect x="180" y="299" width="360" height="11" rx="5" fill="#c0cee7"/>
+ <rect x="180" y="325" width="305" height="11" rx="5" fill="#c0cee7"/>
+ <rect x="180" y="362" width="126" height="104" rx="16" fill="#b5d3f6"/>
+ <path d="M201 439l26-39 20 22 18-31 24 48Z" fill="#4274bb"/>
+ <rect x="326" y="362" width="126" height="104" rx="16" fill="#c7c0f3"/>
+ <circle cx="389" cy="414" r="31" fill="#8e8bd5"/><path d="M389 386v57M361 414h57" stroke="white" stroke-width="8" stroke-linecap="round"/>
+ <rect x="474" y="362" width="184" height="104" rx="16" fill="#d2e0fc"/>
+ <path d="M496 437l38-31 28 15 37-41 36 57" stroke="#6286c9" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="M95 585h650l-50 43H160Z" fill="#eaf0ff"/>
+</g>
+<g filter="url(#shadow)" transform="translate(72,720) rotate(11 270 90)">
+ <rect x="40" y="25" width="400" height="68" rx="16" fill="#ffe0a9"/>
+ <rect x="40" y="91" width="430" height="70" rx="16" fill="#f5b99b"/>
+ <rect x="66" y="156" width="402" height="62" rx="16" fill="#c1c9ff"/>
+ <path d="M78 42h315M78 110h330M101 177h322" stroke="white" stroke-opacity=".68" stroke-width="8" stroke-linecap="round"/>
+</g>
+<g transform="translate(626,690) rotate(-15 100 140)" filter="url(#shadow)">
+ <rect x="0" y="0" width="210" height="268" rx="17" fill="url(#paper)"/>
+ <rect x="25" y="26" width="98" height="18" rx="8" fill="#7795d2"/>
+ <path d="M27 83h152M27 114h152M27 145h114M27 176h150M27 208h100" stroke="#b6c9eb" stroke-width="10" stroke-linecap="round"/>
+ <circle cx="160" cy="225" r="18" fill="#7e84d1"/>
+</g>
+<g fill="#fff" fill-opacity=".4"><circle cx="205" cy="185" r="8"/><circle cx="720" cy="375" r="8"/><circle cx="95" cy="680" r="6"/></g>
+</svg>

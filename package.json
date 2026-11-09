@@ -1,0 +1,23 @@
+{
+  "name": "aula-avanza-firebase",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aula Avanza: usuarios con contraseña, Firestore y evaluaciones acumulativas",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node scripts/cargar-datos.js",
+    "ampliar": "node scripts/ampliar-temas.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.4.2",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.0",
+    "firebase-admin": "^13.0.0",
+    "helmet": "^8.1.0"
+  }
+}

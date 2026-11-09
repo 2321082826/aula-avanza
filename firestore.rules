@@ -1,0 +1,10 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Toda lectura/escritura se realiza en el servidor con Admin SDK.
+    // Ningún navegador puede modificar los datos ni leer claves de respuestas.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
